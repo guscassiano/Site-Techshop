@@ -1,0 +1,50 @@
+
+.carousel img {
+    max-height: 500px;
+}
+
+.card {
+    margin: 24px;
+}
+
+#card1 {
+    color: rgb(20, 226, 13);
+}
+
+#card2 {
+    color: brown;
+}
+
+#card3 {
+    color: rgb(10, 7, 241);
+}
+
+.card img {
+    max-height: 490px;
+    
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+    max-width: 80%;
+}
+
+@media screen and (max-width:768px) {
+
+    header .container {
+        text-align: center;
+    }
+    .card{
+        max-width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow-x: hidden;
+    }
+
+    .card img {
+        display: block;
+    }
+}
